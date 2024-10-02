@@ -1,9 +1,25 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+div {
+}
+
+button {
+  margin: 15px;
+}
+.creador {
+  padding: 3% 16% 0px;
+  margin-top: 45px;
+}
+
+.descripcion {
+  padding: 50px 0 10px;
+}
+
+h4 {
+  padding: 134px;
+}
 
 .excusa {
-}
-.row {
-  border: 1px solid red;
+  height: 350px;
 }
 
 .icono {
@@ -12,4 +28,8 @@
 }
 .js {
   font-size: 4em !important;
+}
+
+#Descripcion-Excusa {
+  height: 300px;
 }

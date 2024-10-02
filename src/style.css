@@ -1,6 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-div {
+
+/* Cambios Genericos */
+
+.icono {
+  font-size: 4em !important;
+  text-align: center;
 }
+
+.js {
+  font-size: 4em !important;
+}
+
+/* Main */
 
 button {
   margin: 15px;
@@ -20,14 +31,6 @@ h4 {
 
 .excusa {
   height: 350px;
-}
-
-.icono {
-  font-size: 4em !important;
-  text-align: center;
-}
-.js {
-  font-size: 4em !important;
 }
 
 #Descripcion-Excusa {

@@ -1,1 +1,15 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.excusa {
+}
+.row {
+  border: 1px solid red;
+}
+
+.icono {
+  font-size: 4em !important;
+  text-align: center;
+}
+.js {
+  font-size: 4em !important;
+}

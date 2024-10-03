@@ -10,13 +10,13 @@
     <header> 
       <div class="container-fluid bg-black text-warning py-2 border-bottom border-warning"> <!--Contenedor Header -->
         <div class="row">
-          <div class="col-2 col-lg-3"> <!-- Icono Header -->
+          <div class="col-2 col-md-3"> <!-- Icono Header -->
             <div>
               <i class="fa-brands fa-square-js text-warning js"></i>
             </div>
           </div>
-          <div class="col-10 col-lg-9"> <!-- Titulo Header -->
-            <div class="d-flex align-items-start align-items-center">
+          <div class="col-10 col-md-9"> <!-- Titulo Header -->
+            <div class="d-flex align-items-start align-items-center text-center">
               <i class="icono fa-solid fa-chevron-left"></i>
               <h1 id="title-header">Generador de excusas</h1>
               <i class="icono fa-solid fa-chevron-right"></i>
@@ -29,27 +29,29 @@
      <div class="container-fluid">
       <div class="row"> <!-- Bloque que muestra visualmente la excusa -->
         <div class="col-12 py-3"> 
-          <h3 class="text-warning fw-bold text-center p-lg-3 p-0">Excusa Generada:</h3>
-          <div class="container fw-bold text-center text-white excusa bg-black rounded border border-3 border-warning w-auto">
-            <h4>Excusa de ejemplo muy pero que muy larga</h4>
+          <h3 class="text-warning fw-bold text-center p-md-3 p-0">Excusa Generada:</h3>
+          <div class="container-fluid container-lg fw-bold text-center text-warning excusa bg-black rounded border border-3 border-warning w-auto align-content-center">
+            <h4 id="Excusa-Generada"> Click Aqui para Generar Excusa o presiona el boton </h4>
           </div>
         </div>
       </div>
       <div class="row"> <!-- Bloque descripcion con boton -->
-        <div class="col-12 col-lg-6" id="Descripcion-Excusa">
-          <p class="text-center text-white fw-bold descripcion">
+        <div class="col-12 col-md-6" id="Descripcion-Excusa">
+          <p class="text-center text-white fw-bold descripcion p-md-3 p-0">
             Un programa que genera excusas aleatorias es una web divertida y útil que crea explicaciones o justificaciones improvisadas para diversas situaciones. El programa puede estar diseñado para producir excusas humorísticas, absurdas o plausibles para cosas como llegar tarde al trabajo, olvidar una tarea o evitar compromisos sociales.
           </p>
           <div class="col-12">
-            <div class="d-grid gap-2">
-              <button class="btn  btn-outline-success" type="button">Generar Excusa</button>
+            <div class="d-grid gap-2 text-center">
+              <button class="btn btn-outline-warning" type="button" id="boton-excusa">Generar Excusa</button>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6"> <!-- Bloque Creador -->
+        <div class="col-12 col-md-6 p-0"> <!-- Bloque Creador -->
           <div class="fw-bold text-warning creador bg-warning rounded border border-white text-white p-3">
-            <p>Creado Por Nelson De Abreu ------------------------------ Contacto: nelsondeabreu@gmail.com</p>
-            <p>Tecnologia Usadas (JavaScript,Css,Html) ----------------- paginas externas: Bootstrap, FontAwesome</p>
+            <p>Creado Por Nelson De Abreu</p>
+            <p>Contacto: nelsondeabreu@gmail.com</p>
+            <p>Tecnologia Usadas (JavaScript,Css,Html)</p>
+            <p>paginas externas: Bootstrap, FontAwesome</p>
             <p>Web Para fin educativo</p>
             <p>Libre de derecho de autor</p>
           </div>
@@ -59,16 +61,16 @@
    </div>
   </main>
     <footer>
-      <div class="container-fluid bg-black text-warning py-2 border-top border-warning"> <!-- Bloque Footer -->
+      <div class="container-fluid bg-black text-warning py-2 border-top border-warning contenedor-footer"> <!-- Bloque Footer -->
         <div class="row">
-          <div class="col-10 col-lg-9"> <!-- Titulo Footer -->
-            <div class="d-flex justify-content-end align-items-center">
+          <div class="col-10 col-md-9"> <!-- Titulo Footer -->
+            <div class="d-flex justify-content-end align-items-center text-center">
               <i class="icono fa-solid fa-chevron-left"></i>
               <h1 id="title-header">Generador de excusas</h1>
               <i class="icono fa-solid fa-chevron-right"></i>
             </div>
           </div>
-          <div class="col-2 col-lg-3"> <!-- Simbolo Footer -->
+          <div class="col-2 col-md-3"> <!-- Simbolo Footer -->
             <div class="text-end">
               <i class="fa-brands fa-square-js text-warning js"></i>
             </div>
@@ -76,7 +78,6 @@
         </div>
       </div>
     </footer>
-    <script src="main.js"></script>
     <script
       src="https://kit.fontawesome.com/fc993d085c.js"
       crossorigin="anonymous"

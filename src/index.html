@@ -1,29 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <title>Generador-Excusa JS</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <header> 
+      <div class="container-fluid bg-black text-warning py-2 border-bottom border-warning"> <!--Contenedor Header -->
+        <div class="row">
+          <div class="col-2 col-md-3"> <!-- Icono Header -->
+            <div>
+              <i class="fa-brands fa-square-js text-warning js"></i>
+            </div>
+          </div>
+          <div class="col-10 col-md-9"> <!-- Titulo Header -->
+            <div class="d-flex align-items-start align-items-center text-center">
+              <i class="icono fa-solid fa-chevron-left"></i>
+              <h1 id="title-header">Generador de excusas</h1>
+              <i class="icono fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="d-flex flex-column bg-dark">
+     <div class="container-fluid">
+      <div class="row"> <!-- Bloque que muestra visualmente la excusa -->
+        <div class="col-12 py-3"> 
+          <h3 class="text-warning fw-bold text-center p-md-3 p-0">Excusa Generada:</h3>
+          <div class="container-fluid container-lg fw-bold text-center text-warning excusa bg-black rounded border border-3 border-warning w-auto align-content-center">
+            <h4 id="Excusa-Generada"> Click Aqui para Generar Excusa o presiona el boton </h4>
+          </div>
+        </div>
+      </div>
+      <div class="row"> <!-- Bloque descripcion con boton -->
+        <div class="col-12 col-md-6" id="Descripcion-Excusa">
+          <p class="text-center text-white fw-bold descripcion p-md-3 p-0">
+            Un programa que genera excusas aleatorias es una web divertida y útil que crea explicaciones o justificaciones improvisadas para diversas situaciones. El programa puede estar diseñado para producir excusas humorísticas, absurdas o plausibles para cosas como llegar tarde al trabajo, olvidar una tarea o evitar compromisos sociales.
+          </p>
+          <div class="col-12">
+            <div class="d-grid gap-2 text-center">
+              <button class="btn btn-outline-warning" type="button" id="boton-excusa">Generar Excusa</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-0"> <!-- Bloque Creador -->
+          <div class="fw-bold text-warning creador bg-warning rounded border border-white text-white p-3">
+            <p>Creado Por Nelson De Abreu</p>
+            <p>Contacto: nelsondeabreu@gmail.com</p>
+            <p>Tecnologia Usadas (JavaScript,Css,Html)</p>
+            <p>paginas externas: Bootstrap, FontAwesome</p>
+            <p>Web Para fin educativo</p>
+            <p>Libre de derecho de autor</p>
+          </div>
+        </div>
       </div>
     </div>
+   </div>
+  </main>
+    <footer>
+      <div class="container-fluid bg-black text-warning py-2 border-top border-warning contenedor-footer"> <!-- Bloque Footer -->
+        <div class="row">
+          <div class="col-10 col-md-9"> <!-- Titulo Footer -->
+            <div class="d-flex justify-content-end align-items-center text-center">
+              <i class="icono fa-solid fa-chevron-left"></i>
+              <h1 id="title-header">Generador de excusas</h1>
+              <i class="icono fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="col-2 col-md-3"> <!-- Simbolo Footer -->
+            <div class="text-end">
+              <i class="fa-brands fa-square-js text-warning js"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fc993d085c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

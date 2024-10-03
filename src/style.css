@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Cambios Genericos */
+
+.icono {
+  font-size: 4em !important;
+  text-align: center;
+}
+
+.js {
+  font-size: 4em !important;
+}
+
+/* Main */
+
+button {
+  margin: 15px;
+}
+.creador {
+  margin-top: 45px;
+}
+
+.descripcion {
+  padding: 50px 0 10px;
+}
+
+.excusa {
+  height: 350px;
+}
+
+#Descripcion-Excusa {
+  height: 300px;
+  padding: 25px;
+}
+/* Responsive */
+@media (min-width: 380px) and (max-width: 600px) {
+  #Descripcion-Excusa {
+    height: 250px;
+  }
+  .contenedor-footer {
+    padding: 0px 25px 0px 8px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 950px) {
+  #Descripcion-Excusa {
+    height: 200px;
+    padding: 5px 0 0 0;
+  }
+}

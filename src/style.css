@@ -32,6 +32,7 @@ button {
   height: 300px;
   padding: 25px;
 }
+
 /* Responsive */
 @media (min-width: 380px) and (max-width: 600px) {
   #Descripcion-Excusa {

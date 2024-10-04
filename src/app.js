@@ -6,12 +6,8 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //Variables con las ids de las etiquetas a modificar
-  const btn = document.getElementById("boton-excusa"),
-    excusa = document.getElementById("Excusa-Generada");
-
   //Funcion Numero Aleatorio
-  const NumRandom = (n) => {
+  const NumRandom = n => {
     n = n - 1;
     let numrandom = Math.floor(Math.random() * n);
     return numrandom;
@@ -25,24 +21,28 @@ window.onload = function() {
   ${cuando[NumRandom(cuando.length)]}`;
   };
 
+  //Variables con las ids de las etiquetas a modificar
+  const btn = document.getElementById("boton-excusa"),
+    excusa = document.getElementById("Excusa-Generada");
+
   //Excusas
   let quien = [
       "Batman",
-      "El cafe",
+      "El ladron",
       "El Var alias isra",
       "La policia",
       "Mi amigo imaginario",
       "El perro de la vecina de mi tia",
       "El profesor juanjo",
       "El fantasma",
-      "El amigo de mi amigo de un conocido",
+      "El amigo del amigo de un conocido",
       "El enfermito que le gusta C++",
       "El programador rarito",
       "La profesora",
       "El niño rarito de los juegos",
       "El loco que solo juega valorant",
       "La persona que acaba de generar esta excusa",
-      "Los duedes",
+      "El duende"
     ],
     accion = [
       "rompio",
@@ -54,10 +54,13 @@ window.onload = function() {
       "vendio",
       "trituro",
       "tiro mercurio en",
-      "encripto",
       "tiro",
       "ensucio",
       "desaparecio",
+      "subasto",
+      "escondio",
+      "miro mal",
+      "hizo un hechizo a"
     ],
     objeto = [
       "mi casa",
@@ -65,12 +68,14 @@ window.onload = function() {
       "mi raton",
       "mi telefono",
       "mis zapatos",
-      "el coche de la esposa de mi papa",
-      "mi mano",
+      "el coche de la tia lejana de mi papa",
+      "mi computadora",
       "la alarma mia",
       "la almohada de mi cama",
       "mi github",
       "la camida",
+      "la sala de mi casa",
+      "mi telefono"
     ],
     cuando = [
       "hoy",
@@ -82,7 +87,7 @@ window.onload = function() {
       "yo estaba solucionando conflictos y no me di cuenta",
       "no tengo pruebas, soy inocente!",
       ". No es culpa mia",
-      "mientras estaba tomando mi cafe",
+      "mientras estaba tomando mi cafe"
     ];
 
   //Eventos para generar la excusa
